@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676039679422" clover="3.2.0">
-  <project timestamp="1676039679422" name="All files">
-    <metrics statements="697" coveredstatements="641" conditionals="102" coveredconditionals="72" methods="116" coveredmethods="105" elements="915" coveredelements="818" complexity="0" loc="697" ncloc="697" packages="27" files="75" classes="75"/>
+<coverage generated="1676053433218" clover="3.2.0">
+  <project timestamp="1676053433218" name="All files">
+    <metrics statements="723" coveredstatements="654" conditionals="108" coveredconditionals="73" methods="120" coveredmethods="109" elements="951" coveredelements="836" complexity="0" loc="723" ncloc="723" packages="27" files="75" classes="75"/>
     <package name="src">
       <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="app.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/app.ts">
@@ -51,20 +51,20 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="151" coveredstatements="132" conditionals="19" coveredconditionals="13" methods="16" coveredmethods="15"/>
+      <metrics statements="158" coveredstatements="134" conditionals="21" coveredconditionals="13" methods="16" coveredmethods="16"/>
       <file name="authentication-controller.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/authentication-controller.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="5" count="5" type="stmt"/>
         <line num="7" count="5" type="stmt"/>
         <line num="8" count="5" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
       </file>
       <file name="booking-controller.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/booking-controller.ts">
-        <metrics statements="27" coveredstatements="24" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="2"/>
+        <metrics statements="34" coveredstatements="34" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -74,27 +74,34 @@
         <line num="11" count="1" type="stmt"/>
         <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="20" count="11" type="stmt"/>
-        <line num="21" count="9" type="stmt"/>
-        <line num="22" count="9" type="stmt"/>
-        <line num="24" count="9" type="stmt"/>
-        <line num="25" count="9" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="31" count="7" type="cond" truecount="1" falsecount="0"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="34" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="37" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="40" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="47" count="11" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="30" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="57" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/enrollments-controller.ts">
-        <metrics statements="20" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -106,8 +113,8 @@
         <line num="18" count="11" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
         <line num="31" count="11" type="stmt"/>
         <line num="32" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
@@ -127,17 +134,17 @@
         <line num="10" count="1" type="stmt"/>
       </file>
       <file name="hotel-controller.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/hotel-controller.ts">
-        <metrics statements="21" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <metrics statements="21" coveredstatements="16" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="22" count="3" type="stmt"/>
@@ -145,9 +152,9 @@
         <line num="25" count="3" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="29" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="32" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="33" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/index.ts">
@@ -162,38 +169,38 @@
         <line num="8" count="11" type="stmt"/>
       </file>
       <file name="payments-controller.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/payments-controller.ts">
-        <metrics statements="28" coveredstatements="20" conditionals="8" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <metrics statements="28" coveredstatements="16" conditionals="8" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="17" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="21" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
-        <line num="29" count="5" type="stmt"/>
-        <line num="30" count="5" type="stmt"/>
-        <line num="34" count="5" type="stmt"/>
-        <line num="36" count="5" type="cond" truecount="3" falsecount="0"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="41" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="2" type="cond" truecount="2" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="45" count="3" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
         <line num="47" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="48" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
       </file>
       <file name="tickets-controller.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/tickets-controller.ts">
-        <metrics statements="22" coveredstatements="20" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="22" coveredstatements="19" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -202,19 +209,19 @@
         <line num="10" count="2" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="16" count="11" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="34" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
       </file>
       <file name="users-controller.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/controllers/users-controller.ts">
@@ -232,16 +239,16 @@
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="29" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="8"/>
+      <metrics statements="29" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="7"/>
       <file name="cannot-enroll-before-start-date-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/cannot-enroll-before-start-date-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="7" type="stmt"/>
       </file>
       <file name="cannot-list-hotels-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/cannot-list-hotels-error.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="conflict-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/conflict-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -251,7 +258,7 @@
       <file name="forbiddem-booking-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/forbiddem-booking-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/index.ts">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -268,7 +275,7 @@
       <file name="invalid-data-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/invalid-data-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
       <file name="invalid-email-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/invalid-email-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -288,12 +295,12 @@
       <file name="room-not-exist-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/room-not-exist-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
       </file>
       <file name="unauthorized-error.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="37" type="stmt"/>
+        <line num="4" count="42" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
@@ -305,31 +312,31 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="72" type="stmt"/>
-        <line num="10" count="72" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="61" type="stmt"/>
-        <line num="13" count="61" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="61" type="stmt"/>
-        <line num="16" count="61" type="stmt"/>
-        <line num="18" count="50" type="stmt"/>
-        <line num="23" count="50" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="77" type="stmt"/>
+        <line num="10" count="77" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="65" type="stmt"/>
+        <line num="13" count="65" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="65" type="stmt"/>
+        <line num="16" count="65" type="stmt"/>
+        <line num="18" count="53" type="stmt"/>
+        <line num="23" count="53" type="cond" truecount="1" falsecount="0"/>
         <line num="25" count="38" type="stmt"/>
         <line num="27" count="38" type="stmt"/>
-        <line num="29" count="11" type="stmt"/>
-        <line num="34" count="34" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="34" count="39" type="stmt"/>
       </file>
       <file name="booking-middleware.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/middlewares/booking-middleware.ts">
         <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="9" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="14" count="9" type="stmt"/>
-        <line num="15" count="9" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="7" count="17" type="stmt"/>
+        <line num="9" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="15" count="15" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/middlewares/error-handling-middleware.ts">
         <metrics statements="14" coveredstatements="2" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -364,37 +371,41 @@
         <line num="10" count="11" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="15" count="33" type="stmt"/>
-        <line num="16" count="19" type="stmt"/>
-        <line num="20" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="20" count="20" type="cond" truecount="2" falsecount="0"/>
         <line num="21" count="13" type="stmt"/>
-        <line num="23" count="17" type="stmt"/>
+        <line num="23" count="23" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.address-repository">
-      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/repositories/address-repository/index.ts">
-        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
         <line num="24" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.booking-repository">
-      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/repositories/booking-repository/index.ts">
-        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="15" count="11" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
         <line num="23" count="11" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
         <line num="31" count="11" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="40" count="11" type="stmt"/>
-        <line num="47" count="11" type="stmt"/>
+        <line num="32" count="7" type="stmt"/>
+        <line num="39" count="11" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="48" count="11" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="59" count="11" type="stmt"/>
+        <line num="68" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.enrollment-repository">
@@ -402,8 +413,8 @@
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/repositories/enrollment-repository/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="22" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
+        <line num="5" count="19" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="36" count="11" type="stmt"/>
         <line num="42" count="11" type="stmt"/>
@@ -425,7 +436,7 @@
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="18" count="11" type="stmt"/>
         <line num="23" count="11" type="stmt"/>
       </file>
@@ -436,7 +447,7 @@
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
         <line num="23" count="11" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
       </file>
@@ -458,11 +469,11 @@
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="30" count="15" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="49" count="3" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
         <line num="61" count="11" type="stmt"/>
         <line num="70" count="11" type="stmt"/>
       </file>
@@ -618,14 +629,14 @@
       </file>
     </package>
     <package name="src.services.authentication-service">
-      <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <metrics statements="24" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
       <file name="errors.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/services/authentication-service/errors.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/services/authentication-service/index.ts">
-        <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <metrics statements="22" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -636,13 +647,13 @@
         <line num="12" count="9" type="stmt"/>
         <line num="14" count="7" type="stmt"/>
         <line num="16" count="5" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
         <line num="25" count="9" type="stmt"/>
         <line num="26" count="9" type="cond" truecount="1" falsecount="0"/>
         <line num="28" count="7" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
         <line num="33" count="5" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
         <line num="42" count="7" type="stmt"/>
         <line num="43" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="55" count="11" type="stmt"/>
@@ -651,9 +662,9 @@
       </file>
     </package>
     <package name="src.services.booking-service">
-      <metrics statements="28" coveredstatements="28" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+      <metrics statements="41" coveredstatements="40" conditionals="13" coveredconditionals="12" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/services/booking-service/index.ts">
-        <metrics statements="28" coveredstatements="28" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <metrics statements="41" coveredstatements="40" conditionals="13" coveredconditionals="12" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -662,9 +673,9 @@
         <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="10" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="17" count="9" type="stmt"/>
-        <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="18" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="2" type="stmt"/>
         <line num="22" count="8" type="stmt"/>
         <line num="23" count="8" type="cond" truecount="1" falsecount="0"/>
         <line num="24" count="1" type="stmt"/>
@@ -680,14 +691,27 @@
         <line num="42" count="1" type="stmt"/>
         <line num="45" count="2" type="stmt"/>
         <line num="47" count="2" type="stmt"/>
-        <line num="50" count="11" type="stmt"/>
-        <line num="55" count="11" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="52" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="4" type="stmt"/>
+        <line num="57" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="62" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="66" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="75" count="11" type="stmt"/>
+        <line num="81" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.enrollments-service">
-      <metrics statements="28" coveredstatements="21" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
+      <metrics statements="28" coveredstatements="22" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/services/enrollments-service/index.ts">
-        <metrics statements="28" coveredstatements="21" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
+        <metrics statements="28" coveredstatements="22" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="4"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -712,7 +736,7 @@
         <line num="66" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="67" count="0" type="stmt"/>
         <line num="70" count="2" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
         <line num="76" count="2" type="stmt"/>
         <line num="86" count="11" type="stmt"/>
         <line num="92" count="11" type="stmt"/>
@@ -748,57 +772,28 @@
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="10" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="16" count="3" type="cond" truecount="5" falsecount="0"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="4" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="32" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="33" count="0" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
         <line num="38" count="11" type="stmt"/>
         <line num="43" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.payments-service">
-      <metrics statements="23" coveredstatements="18" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <metrics statements="23" coveredstatements="16" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/services/payments-service/index.ts">
-        <metrics statements="23" coveredstatements="18" conditionals="3" coveredconditionals="1" methods="3" coveredmethods="3"/>
-        <line num="1" count="11" type="stmt"/>
-        <line num="2" count="11" type="stmt"/>
-        <line num="3" count="11" type="stmt"/>
-        <line num="4" count="11" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="9" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="14" count="3" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="42" count="3" type="stmt"/>
-        <line num="44" count="3" type="stmt"/>
-        <line num="46" count="3" type="stmt"/>
-        <line num="57" count="11" type="stmt"/>
-        <line num="62" count="11" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.services.tickets-service">
-      <metrics statements="24" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/services/tickets-service/index.ts">
-        <metrics statements="24" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <metrics statements="23" coveredstatements="16" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -807,20 +802,49 @@
         <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="30" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="34" count="2" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
         <line num="42" count="2" type="stmt"/>
         <line num="44" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="57" count="11" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services.tickets-service">
+      <metrics statements="24" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/services/tickets-service/index.ts">
+        <metrics statements="24" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
         <line num="47" count="11" type="stmt"/>
         <line num="53" count="11" type="stmt"/>
       </file>
@@ -867,10 +891,10 @@
       <file name="prisma-utils.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/utils/prisma-utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="2" count="7" type="stmt"/>
-        <line num="3" count="7" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="6" count="7" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
       </file>
       <file name="request.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/src/utils/request.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -893,31 +917,33 @@
         <line num="5" count="10" type="stmt"/>
         <line num="6" count="10" type="stmt"/>
         <line num="8" count="10" type="stmt"/>
-        <line num="9" count="73" type="stmt"/>
-        <line num="10" count="73" type="stmt"/>
-        <line num="11" count="73" type="stmt"/>
-        <line num="12" count="72" type="stmt"/>
-        <line num="13" count="68" type="stmt"/>
-        <line num="14" count="68" type="stmt"/>
-        <line num="15" count="68" type="stmt"/>
-        <line num="16" count="67" type="stmt"/>
-        <line num="17" count="67" type="stmt"/>
-        <line num="18" count="67" type="stmt"/>
-        <line num="19" count="67" type="stmt"/>
+        <line num="9" count="82" type="stmt"/>
+        <line num="10" count="82" type="stmt"/>
+        <line num="11" count="82" type="stmt"/>
+        <line num="12" count="82" type="stmt"/>
+        <line num="13" count="80" type="stmt"/>
+        <line num="14" count="80" type="stmt"/>
+        <line num="15" count="80" type="stmt"/>
+        <line num="16" count="80" type="stmt"/>
+        <line num="17" count="80" type="stmt"/>
+        <line num="18" count="80" type="stmt"/>
+        <line num="19" count="80" type="stmt"/>
         <line num="22" count="10" type="stmt"/>
-        <line num="23" count="47" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="47" type="stmt"/>
-        <line num="26" count="47" type="stmt"/>
-        <line num="28" count="47" type="stmt"/>
+        <line num="23" count="53" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="53" type="stmt"/>
+        <line num="26" count="53" type="stmt"/>
+        <line num="28" count="53" type="stmt"/>
       </file>
     </package>
     <package name="tests.factories">
-      <metrics statements="64" coveredstatements="64" conditionals="18" coveredconditionals="17" methods="16" coveredmethods="16"/>
+      <metrics statements="66" coveredstatements="66" conditionals="18" coveredconditionals="17" methods="17" coveredmethods="17"/>
       <file name="booking-factory.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/tests/factories/booking-factory.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
       <file name="enrollments-factory.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/tests/factories/enrollments-factory.ts">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
@@ -944,11 +970,11 @@
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="11" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
         <line num="14" count="10" type="stmt"/>
-        <line num="15" count="7" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
         <line num="24" count="10" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/tests/factories/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -968,31 +994,31 @@
         <line num="4" count="10" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="15" count="10" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
       </file>
       <file name="sessions-factory.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/tests/factories/sessions-factory.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="10" type="stmt"/>
         <line num="3" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="47" type="stmt"/>
-        <line num="8" count="47" type="stmt"/>
+        <line num="6" count="53" type="stmt"/>
+        <line num="8" count="53" type="stmt"/>
       </file>
       <file name="tickets-factory.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/tests/factories/tickets-factory.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="11" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
         <line num="16" count="10" type="stmt"/>
-        <line num="17" count="5" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
         <line num="27" count="10" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
         <line num="38" count="10" type="stmt"/>
-        <line num="39" count="6" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
         <line num="49" count="10" type="stmt"/>
-        <line num="50" count="17" type="stmt"/>
+        <line num="50" count="12" type="stmt"/>
       </file>
       <file name="users-factory.ts" path="/home/brenda/Documentos/PROJETOS_MODULO_5/SEMANA_4_BOAS_PRATICAS_TESTES/drivent/tests/factories/users-factory.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -1000,9 +1026,9 @@
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="6" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="115" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="115" type="stmt"/>
-        <line num="10" count="115" type="stmt"/>
+        <line num="7" count="129" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="129" type="stmt"/>
+        <line num="10" count="129" type="stmt"/>
       </file>
     </package>
   </project>

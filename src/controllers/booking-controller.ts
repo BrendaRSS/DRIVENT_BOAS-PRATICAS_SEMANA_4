@@ -13,7 +13,6 @@ export async function getBooking(req: AuthenticatedRequest, res: Response) {
     if(error.name === "NotFoundError") {
       return res.sendStatus(httpStatus.BAD_REQUEST);
     } 
-    return res.sendStatus(httpStatus.NOT_FOUND);
   }
 }
 
@@ -22,8 +21,8 @@ export async function postBooking(req: AuthenticatedRequest, res: Response) {
   const { roomId } = res.locals.body;
  
   try{
-    const roomIdChose = await bookingService.postBooking(Number(userId), Number(roomId));
-    return res.status(httpStatus.CREATED).send({ roomId });
+    const bookingId = await bookingService.postBooking(Number(userId), Number(roomId));
+    return res.status(httpStatus.OK).send({ bookingId });
   } catch (error) {
     // if(error.name === "NotFoundError") {
     //   return res.sendStatus(httpStatus.NOT_FOUND);
@@ -40,10 +39,23 @@ export async function postBooking(req: AuthenticatedRequest, res: Response) {
     if(error.name === "room not exist") {
       return res.sendStatus(httpStatus.BAD_REQUEST);
     }
-    return res.sendStatus(httpStatus.INTERNAL_SERVER_ERROR);
   }
 }
 
-export async function putBookingId(req: Request, res: Response) {
-  return res.status(httpStatus.OK).send("PUT BOOKING");
+export async function putBookingId(req: AuthenticatedRequest, res: Response) {
+  const { userId } = req;
+  const { bookingId } = req.params;
+  const { roomId } = res.locals.body;
+  
+  try{
+    const bookingIdPut = await bookingService.putBooking(Number(userId), Number(roomId), Number(bookingId));
+    return res.status(httpStatus.OK).send({ bookingId: bookingIdPut });
+  } catch (error) {
+    if(error.name === "crowded room") {
+      return res.sendStatus(httpStatus.FORBIDDEN);
+    }
+    if(error.name === "room not exist") {
+      return res.sendStatus(httpStatus.BAD_REQUEST);
+    }
+  }
 }
