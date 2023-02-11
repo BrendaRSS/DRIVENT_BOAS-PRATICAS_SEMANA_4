@@ -276,15 +276,19 @@ describe("PUT /booking/:bookingId", () => {
       expect(response.status).toBe(httpStatus.BAD_REQUEST);
     });
 
-    it("should respond with status 403 when is crowded room", async () => {
+    it("should respond with status 403 when the room is crowded", async () => {
       const user = await createUser();
       const token = await generateValidToken(user);
+      const otherUser = await createUser();
       const hotels = await createHotel();
       const rooms = await createRoomWithHotelIdCapacityOne(hotels.id);
-      const body = { roomId: rooms.id };
+      const otherRoom = await createRoomWithHotelIdCapacityOne(hotels.id);
+      const bookingUser = await createBooking(user.id, rooms.id);
+      const bookingOtherUser = await createBooking(otherUser.id, otherRoom.id);
+      const body = { roomId: otherRoom.id };
       await server.post("/booking").set("Authorization", `Bearer ${token}`).send(body);
 
-      const response = await server.put("/booking/1").set("Authorization", `Bearer ${token}`).send(body);
+      const response = await server.put(`/booking/${bookingUser}`).set("Authorization", `Bearer ${token}`).send(body);
     
       expect(response.status).toBe(httpStatus.FORBIDDEN);
     });
