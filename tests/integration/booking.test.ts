@@ -48,7 +48,7 @@ describe("GET /booking", () => {
     
       const response = await server.get("/booking").set("Authorization", `Bearer ${token}`);
     
-      expect(response.status).toBe(httpStatus.BAD_REQUEST);
+      expect(response.status).toBe(httpStatus.NOT_FOUND);
     });
 
     it("should respond with status 200 and user booking", async () => {
@@ -110,7 +110,7 @@ describe("POST /booking", () => {
       expect(response.status).toBe(httpStatus.UNPROCESSABLE_ENTITY);
     });
 
-    it("should respond with status 404 when user doesn't have an enrollment yet", async () => {
+    it("should respond with status 403 when user doesn't have an enrollment yet", async () => {
       const user = await createUser();
       const token = await generateValidToken(user);
       const hotels = await createHotel();
@@ -119,10 +119,10 @@ describe("POST /booking", () => {
     
       const response = await server.post("/booking").set("Authorization", `Bearer ${token}`).send(body);
     
-      expect(response.status).toBe(httpStatus.BAD_REQUEST);
+      expect(response.status).toBe(httpStatus.FORBIDDEN);
     });
 
-    it("should respond with status 404 when user doesnt have a ticket yet", async () => {
+    it("should respond with status 403 when user doesnt have a ticket yet", async () => {
       const user = await createUser();
       const token = await generateValidToken(user);
       await createEnrollmentWithAddress(user);
@@ -132,10 +132,10 @@ describe("POST /booking", () => {
     
       const response = await server.post("/booking").set("Authorization", `Bearer ${token}`).send(body);
     
-      expect(response.status).toBe(httpStatus.BAD_REQUEST);
+      expect(response.status).toBe(httpStatus.FORBIDDEN);
     });
 
-    it("should respond with status 402 when user has not paid the ticket", async () => {
+    it("should respond with status 403 when user has not paid the ticket", async () => {
       const user = await createUser();
       const token = await generateValidToken(user);
       const enrollment = await createEnrollmentWithAddress(user);
@@ -147,10 +147,10 @@ describe("POST /booking", () => {
     
       const response = await server.post("/booking").set("Authorization", `Bearer ${token}`).send(body);
     
-      expect(response.status).toBe(httpStatus.PAYMENT_REQUIRED);
+      expect(response.status).toBe(httpStatus.FORBIDDEN);
     });
 
-    it("should respond with status 402 when ticket is remote", async () => {
+    it("should respond with status 403 when ticket is remote", async () => {
       const user = await createUser();
       const token = await generateValidToken(user);
       const enrollment = await createEnrollmentWithAddress(user);
@@ -162,10 +162,10 @@ describe("POST /booking", () => {
     
       const response = await server.post("/booking").set("Authorization", `Bearer ${token}`).send(body);
     
-      expect(response.status).toBe(httpStatus.PAYMENT_REQUIRED);
+      expect(response.status).toBe(httpStatus.FORBIDDEN);
     });
 
-    it("should respond with status 402 when ticket does not include hosting", async () => {
+    it("should respond with status 403 when ticket does not include hosting", async () => {
       const user = await createUser();
       const token = await generateValidToken(user);
       const enrollment = await createEnrollmentWithAddress(user);
@@ -177,7 +177,7 @@ describe("POST /booking", () => {
     
       const response = await server.post("/booking").set("Authorization", `Bearer ${token}`).send(body);
     
-      expect(response.status).toBe(httpStatus.PAYMENT_REQUIRED);
+      expect(response.status).toBe(httpStatus.FORBIDDEN);
     });
 
     it("should respond with status 404 when room not exist", async () => {
@@ -191,7 +191,7 @@ describe("POST /booking", () => {
     
       const response = await server.post("/booking").set("Authorization", `Bearer ${token}`).send(body);
     
-      expect(response.status).toBe(httpStatus.BAD_REQUEST);
+      expect(response.status).toBe(httpStatus.NOT_FOUND);
     });
 
     it("should respond with status 403 when is crowded room", async () => {
@@ -273,7 +273,7 @@ describe("PUT /booking/:bookingId", () => {
     
       const response = await server.put("/booking/1").set("Authorization", `Bearer ${token}`).send(body);
     
-      expect(response.status).toBe(httpStatus.BAD_REQUEST);
+      expect(response.status).toBe(httpStatus.NOT_FOUND);
     });
 
     it("should respond with status 403 when the room is crowded", async () => {

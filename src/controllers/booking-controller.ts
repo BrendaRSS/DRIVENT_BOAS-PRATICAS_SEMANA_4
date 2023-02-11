@@ -11,7 +11,7 @@ export async function getBooking(req: AuthenticatedRequest, res: Response) {
     return res.status(httpStatus.OK).send(booking);
   } catch (error) {
     if(error.name === "NotFoundError") {
-      return res.sendStatus(httpStatus.BAD_REQUEST);
+      return res.sendStatus(httpStatus.NOT_FOUND);
     } 
   }
 }
@@ -24,20 +24,11 @@ export async function postBooking(req: AuthenticatedRequest, res: Response) {
     const bookingId = await bookingService.postBooking(Number(userId), Number(roomId));
     return res.status(httpStatus.OK).send({ bookingId });
   } catch (error) {
-    // if(error.name === "NotFoundError") {
-    //   return res.sendStatus(httpStatus.NOT_FOUND);
-    // } 
-    if(error.name === "NotFoundError") {
-      return res.sendStatus(httpStatus.BAD_REQUEST);
-    } 
-    if(error.name === "UnauthorizedError") {
-      return res.sendStatus(httpStatus.PAYMENT_REQUIRED);
+    if(error.name === "room not exist") {
+      return res.sendStatus(httpStatus.NOT_FOUND);
     }
     if(error.name === "crowded room") {
       return res.sendStatus(httpStatus.FORBIDDEN);
-    }
-    if(error.name === "room not exist") {
-      return res.sendStatus(httpStatus.BAD_REQUEST);
     }
   }
 }
@@ -55,7 +46,7 @@ export async function putBookingId(req: AuthenticatedRequest, res: Response) {
       return res.sendStatus(httpStatus.FORBIDDEN);
     }
     if(error.name === "room not exist") {
-      return res.sendStatus(httpStatus.BAD_REQUEST);
+      return res.sendStatus(httpStatus.NOT_FOUND);
     }
   }
 }

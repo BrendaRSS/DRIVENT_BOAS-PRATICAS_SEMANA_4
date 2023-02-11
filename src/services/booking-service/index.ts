@@ -16,20 +16,20 @@ async function getBooking(id: number) {
 async function postBooking(userId: number, roomId: number) {
   const enrollment = await enrollmentRepository.findWithAddressByUserId(userId);
   if(!enrollment) {
-    throw notFoundError();
+    throw forbiddemBooking();
   }
 
   const ticket = await ticketRepository.findTicketByEnrollmentId(enrollment.id);
   if(!ticket) {
-    throw notFoundError();
+    throw forbiddemBooking();
   }
 
   if(ticket.status !== "PAID") {
-    throw unauthorizedError();
+    throw forbiddemBooking();
   }
 
   if(ticket.TicketType.isRemote || ticket.TicketType.includesHotel ===  false) {
-    throw unauthorizedError();
+    throw forbiddemBooking();
   }
 
   const roomIdExist = await bookingRepository.getRoomId(roomId);
